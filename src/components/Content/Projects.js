@@ -8,7 +8,7 @@ const Projects = ()=>{
     return(
         <div className='tab-content'>
             <h2>Projects</h2>
-                <p>Links to some of my projects can be found below. The rest of my projects can be viewed on my <a href="https://github.com/jacobcollinsdev" target="_blank" rel="noopener noreferrer"><span class="highlight">GiHub profile.</span></a></p>
+                <p>Links to some of my projects can be found below. The rest of my projects can be viewed on my <a href="https://github.com/jacobcollinsdev" target="_blank" rel="noopener noreferrer"><span className="highlight">GiHub profile.</span></a></p>
                 <div className='project-grid'>
                     <LearnChess/>
                     <ChessTrainer/>

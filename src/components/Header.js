@@ -1,16 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const Header = ()=>{
-   return(
-       <header className="nav-container">
+    const [darkMode] = useState("");
 
-            <label className="switch">
-                <input type="checkbox"/>
-                <span className="slider"></span>
-            </label>
-            
-       </header>
-   ) 
+    function handleChange(){
+        console.log('clicked')
+    }
+    return(
+        <header className="nav-container">
+
+                <label className="switch">
+                    <input 
+                        type="checkbox" 
+                        onChange={handleChange}
+                    />
+                    <span className="slider"></span>
+                </label>
+                
+        </header>
+    ) 
 }
 
 export default Header
