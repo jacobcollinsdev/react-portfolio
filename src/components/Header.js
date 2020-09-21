@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
 
 const Header = ()=>{
-    const [darkMode] = useState("");
+    const [toggle, setToggle] = useState(false);
 
-    function handleChange(){
-        console.log('clicked')
+    function handleChange(event){
+        setToggle(prevToggle => !prevToggle);
+        console.log(toggle)
     }
+
     return(
         <header className="nav-container">
 

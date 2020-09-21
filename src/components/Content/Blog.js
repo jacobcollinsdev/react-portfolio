@@ -6,7 +6,7 @@ const Blog = ()=>{
             <h2>Blog</h2>                
             <p>"To teach is to learn twice". With this in mind, I like to create tutorials on programming concepts that I have struggled with to help others like me and to solidify my understanding of particular topics. All my output can be accessed on my <a href="https://blog.jacobcollinsdev.com/" target="_blank" rel="noopener noreferrer"><span className="highlight">blog homepage</span></a>.</p>
 
-            <a className="card" href="#" target="_blank" rel="noopener noreferrer">
+            <a className="card" href="https://blog.jacobcollinsdev.com/how-to-toggle-dark-mode" target="_blank" rel="noopener noreferrer">
                 <div className="blog-entry">
                     <h3>How to Toggle Dark Mode</h3>
                     <h4>07/09/2020</h4>
