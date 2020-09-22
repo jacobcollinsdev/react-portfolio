@@ -106,10 +106,15 @@ a{
     outline:none;
 }
 
-.tab-nav button.active {
+/* .tab-nav button.active {
     background-color: var(--orange);
     color:white;
-  }
+} */
+
+.active {
+    background-color: var(--orange);
+    color:white;
+}
 
 .content{
     display: flex;
@@ -124,12 +129,16 @@ a{
     max-width:450px;
     padding-bottom: 2em;
     margin-bottom: 4em;
-    display: block;
+    display: none;
     animation: fadeEffect 1s;
     background:white;
     box-shadow:10px 10px 20px rgba(0,0,0,0.25);
     /* padding:1em; */
     border-radius:20px;
+}
+
+.tab-show{
+    display: block;
 }
 
 .tab-content h2, .tab-content p, .project-grid{

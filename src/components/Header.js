@@ -3,10 +3,10 @@ import React, {useState} from 'react';
 const Header = ()=>{
     const [toggle, setToggle] = useState(false);
 
-    function handleChange(event){
+    function handleChange(){
         setToggle(!toggle);
     }
-    
+
     toggle ? document.body.classList.add('dark-mode') : document.body.classList.remove('dark-mode')
 
     return(
