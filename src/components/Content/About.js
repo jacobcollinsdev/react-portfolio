@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = ()=>{
     return(
-        <div className="tab-content tab-show">
+        <div className="tab-content">
             <h2>About</h2>
             <p>Hi, I'm Jacob.
                 I'm a front end web developer based in London, UK. <br/><br/>
