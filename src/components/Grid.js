@@ -13,8 +13,7 @@ const Grid = ()=>{
     function showTab(e){
         setTab(e.target.id)
     }
-
-    var type = tab;
+    
     // var MyComponent = Components[type];
 
     return(
